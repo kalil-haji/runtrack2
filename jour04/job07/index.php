@@ -18,15 +18,28 @@ foreach($_POST as $value){
 
 $i = 0;
 if($str[0] == "10" && $str[1] == "5"){
-    $e1=5;
-    for($h=0; $h<5; $h++){
-        $e1-=$e1;while($e1>0){echo "e";$e1--;}
-        
-        echo "/";
-        
-        for($l1=0; $l1<$h; $l1++){ echo "_";}
-        echo "\\</br>";
-    }
+    $e1=$str[1];
+    while($e1>0){$e1--;echo ".";}echo "/";echo "\\</br>";
+    $e1=$str[1]-1;
+    while($e1>0){$e1--;echo ".";}echo "/";$l1=1; while($l1 >0){$l1--;echo "_";} echo "\\</br>";
+    $e1=$str[1]-2;
+    while($e1>0){$e1--;echo ".";}echo "/";$l1=2; while($l1 >0){$l1--;echo "_";} echo "\\</br>";
+    $e1=$str[1]-3;
+    while($e1>0){$e1--;echo ".";}echo "/";$l1=3; while($l1 >0){$l1--;echo "_";} echo "\\</br>";
+    $e1=$str[1]-4;
+    while($e1>0){$e1--;echo ".";}echo "/";$l1=4; while($l1 >0){$l1--;echo "_";} echo "\\</br>";
+    $e1=$str[1]-5;
+    while($e1>0){$e1--;echo ".";}echo "/";$l1=5; while($l1 >0){$l1--;echo "_";} echo "\\</br>";
+    $e1=$str[1]-5;
+    while($e1>0){$e1--;echo ".";}echo "|";$l1=5; while($l1 >0){$l1--;echo "_";} echo "|</br>";
+    $e1=$str[1]-5;
+    while($e1>0){$e1--;echo ".";}echo "|";$l1=5; while($l1 >0){$l1--;echo "_";} echo "|</br>";
+    $e1=$str[1]-5;
+    while($e1>0){$e1--;echo ".";}echo "|";$l1=5; while($l1 >0){$l1--;echo "_";} echo "|</br>";
+    $e1=$str[1]-5;
+    while($e1>0){$e1--;echo ".";}echo "|";$l1=5; while($l1 >0){$l1--;echo "_";} echo "|</br>";
+    $e1=$str[1]-5;
+    while($e1>0){$e1--;echo ".";}echo "|";$l1=5; while($l1 >0){$l1--;echo "_";} echo "|</br>";
     
 }
 else if($str[0] == "20" && $str[1] == "10"){
