@@ -1,0 +1,38 @@
+form {
+
+    margin: 0 auto;
+    width: 400px;
+    
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: rgb(231, 226, 226);
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    form div + div {
+    margin-top: 1em;
+    }
+    
+    label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    }
+    
+    
+    
+    
+    .button {
+    padding-left: 120px;
+    }
+    
+    button {
+    margin-left: .5em;
+    }
+    
+    .par {
+      text-align: center;
+    }
